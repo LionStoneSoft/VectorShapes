@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VectorShapes
 {
-    class Rectangle : FourSides, IFourSides
+    public class Rectangle : FourSides, IFourSides
     {
 
         public Rectangle(int xParam, int yParam, int Width, int Height) :base(xParam, yParam, Width, Height)

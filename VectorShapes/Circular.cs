@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VectorShapes
 {
-    class Circular : ICircular
+    public class Circular : ICircular
     {
         private int _xParam;
         private int _yParam;

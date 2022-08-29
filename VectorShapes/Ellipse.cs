@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VectorShapes
 {
-    class Ellipse : Circular, ICircular
+    public class Ellipse : Circular, ICircular
     {
         public Ellipse(int xParam, int yParam, int HDiameter, int VDiameter) : base(xParam, yParam, HDiameter, VDiameter)
         {

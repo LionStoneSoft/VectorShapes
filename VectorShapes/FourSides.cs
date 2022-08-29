@@ -54,7 +54,7 @@ namespace VectorShapes
         {
             if (Height < 1 || Width < 1)
             {
-                throw new ArgumentException("The Height, Width or Size cannot be less than 1.");
+                throw new ArgumentException("The Height or Width cannot be less than 1.");
             }
         }
     }

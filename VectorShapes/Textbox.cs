@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VectorShapes
 {
-    class Textbox : FourSides, IFourSides
+    public class Textbox : FourSides, IFourSides
     {
         private string _text;
         public string Text

@@ -1,6 +1,6 @@
 ﻿namespace VectorShapes
 {
-    interface ICircular
+    public interface ICircular
     {
         int HDiameter { get; set; }
         int VDiameter { get; set; }

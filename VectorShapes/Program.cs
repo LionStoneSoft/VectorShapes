@@ -6,7 +6,7 @@ using System.IO;
 
 namespace VectorShapes
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

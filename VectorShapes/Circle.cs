@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VectorShapes
 {
-    class Circle : Circular, ICircular
+    public class Circle : Circular, ICircular
     {
         public override int VDiameter { get => base.VDiameter; set => base.VDiameter = HDiameter; }
 

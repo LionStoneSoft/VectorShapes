@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VectorShapes
 {
-    class Square : FourSides, IFourSides
+    public class Square : FourSides, IFourSides
     {
         public override int Height { get => base.Height; set => base.Height = Width; }
 
